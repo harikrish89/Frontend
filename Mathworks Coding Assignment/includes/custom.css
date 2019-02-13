@@ -1,0 +1,126 @@
+.logo_container { 
+	margin-bottom: 6px;
+	margin-top: 5px;
+}
+.add_margin_10 { 
+	margin-bottom: 10px;
+}
+.add_margin_20 { 
+	margin-bottom: 20px;
+}
+.add_margin_30 { 
+	margin-bottom: 30px;
+}
+.add_margin_40 { 
+	margin-bottom: 40px;
+}
+.add_margin_50 { 
+	margin-bottom: 50px;
+}
+.add_margin_60 { 
+	margin-bottom: 60px;
+}
+/*Footer*/
+.footer {
+	margin-top: 100px;
+	position:fixed ;
+	bottom:0; 
+	width: 100%;
+}
+/*Product Grids*/
+.explore-grid {
+   float:left ;
+   
+}
+.matlabstudent-grid {
+	
+	float:right;
+}
+.story-move{
+	float: right;
+}
+.padwithwhitespace{
+    padding-right: 20px; 
+    width: 2px; 
+    background-color:#fff; 
+    height: 118px; 
+    float:left ; 
+}
+.gray-line{
+	width: 2px; 
+	background-color:#eee; 
+	height: 118px; 
+	float:left ;
+}
+.glyphicon-user{
+	float:left; 
+	padding-right:10px;
+}
+.tab-sizemaker{
+	width:50%; 
+	height: 520px;
+	float:left;
+}
+/*Panel beneath the carousel*/
+.givebackground{
+	padding-left:10px; 
+	padding-right:10px; 
+	background-color: #eee;
+	box-sizing: border-box;
+}
+.btn-default {
+      background: #1E90FF;
+      color: #fff;
+}
+.btn-default:hover {
+      background: #fff;
+      color: #000;
+}
+.panelnew{
+	    border-color: #ccc;
+	    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	    border-radius: 0;
+	    background-color: #f5f5f5;
+}
+/*Drop down implementation of  Navigation bar*/
+.caret-up {
+	 width: 0; 
+	 height: 0; 
+	 border-left: 4px solid rgba(0, 0, 0, 0);
+	 border-right: 4px solid rgba(0, 0, 0, 0);
+	 border-bottom: 4px solid;
+	 
+	 display: inline-block;
+	 margin-left: 2px;
+	 vertical-align: middle;
+}
+
+/*Resizing for Smaller Screens*/
+@media (max-width: 992px) {
+ .tab-sizemaker{
+	width:auto; 
+	height: auto;
+	float:none;
+}
+.explore-grid{
+	float:left;
+}
+.matlabstudent-grid {
+	float:left;
+}
+.padwithwhitespace{
+	height: 380px;
+}
+.marketing .col-lg-3 p {
+	font-size: x-large;
+}
+.nav>li>a  {
+	font-size: xx-large;
+}
+.marketing a{
+	font-size: xx-large;
+}
+.footer {
+	font-size: x-large;
+}
+}
